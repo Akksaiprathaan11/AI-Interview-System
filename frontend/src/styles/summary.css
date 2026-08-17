@@ -1,0 +1,11 @@
+.summary-page {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+.summary-score {
+    font-size: 60px;
+    color: var(--success-color);
+    text-align: center;
+}

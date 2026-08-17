@@ -1,0 +1,252 @@
+/* ==========================================
+   AI Interview System
+   Global Styles
+   Author: Akksai Prathaan
+========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fb;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #2563eb;
+}
+
+textarea {
+    resize: vertical;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Layout */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 15px 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 45px;
+}
+
+.logo h2 {
+    color: #2563eb;
+}
+
+/* Card */
+
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* Buttons */
+
+.primary-btn {
+    background: #2563eb;
+    color: white;
+}
+
+.primary-btn:hover {
+    background: #1d4ed8;
+}
+
+.secondary-btn {
+    background: #6b7280;
+    color: white;
+}
+
+.secondary-btn:hover {
+    background: #4b5563;
+}
+
+.success-btn {
+    background: #16a34a;
+    color: white;
+}
+
+.success-btn:hover {
+    background: #15803d;
+}
+
+/* Progress Bar */
+
+.progress-container {
+    width: 100%;
+    height: 12px;
+    background: #e5e7eb;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: #2563eb;
+    transition: width 0.4s ease;
+}
+
+/* Question Card */
+
+.question-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Answer Box */
+
+.answer-box {
+    margin-top: 20px;
+}
+
+.answer-box textarea {
+    min-height: 220px;
+}
+
+/* Summary */
+
+.summary-score {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #16a34a;
+    margin-bottom: 20px;
+}
+
+.summary-section {
+    margin-top: 25px;
+}
+
+.summary-section h3 {
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+.summary-section ul {
+    padding-left: 20px;
+}
+
+.summary-section li {
+    margin-bottom: 8px;
+}
+
+/* Upload Area */
+
+.upload-box {
+    border: 2px dashed #2563eb;
+    border-radius: 12px;
+    padding: 35px;
+    text-align: center;
+    background: #f9fbff;
+}
+
+.upload-box:hover {
+    background: #eef5ff;
+}
+
+/* Loading */
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    padding: 25px;
+    color: #6b7280;
+    margin-top: 50px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .summary-score {
+        font-size: 45px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,16 @@
+.interview-page {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.question-card {
+    background: white;
+    border-radius: var(--radius);
+    padding: 25px;
+    box-shadow: var(--shadow);
+}
+
+.answer-box {
+    margin-top: 20px;
+}

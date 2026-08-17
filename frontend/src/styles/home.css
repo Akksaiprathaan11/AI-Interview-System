@@ -1,0 +1,15 @@
+.home {
+    padding: 40px 20px;
+}
+
+.home-title {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.home-subtitle {
+    text-align: center;
+    color: var(--text-light);
+    margin-bottom: 40px;
+}

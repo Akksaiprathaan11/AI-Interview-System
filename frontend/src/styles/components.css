@@ -1,0 +1,23 @@
+.card {
+    background: white;
+    border-radius: var(--radius);
+    padding: 20px;
+    box-shadow: var(--shadow);
+}
+
+.primary-button {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: var(--radius);
+}
+
+.primary-button:hover {
+    background: var(--primary-dark);
+}
+
+.section-title {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
