@@ -104,6 +104,8 @@ origins = [
 
     "http://127.0.0.1:5173",
 
+    "https://ai-interview-system-1-pg4f.onrender.com",
+
 ]
 
 app.add_middleware(
